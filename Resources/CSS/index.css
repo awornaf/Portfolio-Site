@@ -79,6 +79,7 @@ img{
 /* Lock header size for smallest screens */
 @media screen and (max-width: 350px){
     header{
+        display: grid;
         grid-template-columns: 79.58px, 210px, 77.8px;
     }
 }
@@ -87,6 +88,7 @@ img{
 /* Change main orientation for smaller screens */
 @media screen and (max-width: 500px){
     .wrapper-main{
+        display: flex;
         flex-flow: row wrap;
     }
     .pic img {
