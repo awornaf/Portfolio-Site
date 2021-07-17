@@ -29,15 +29,7 @@ li a{
 li {
     float: left;
 }
-/*navLeft{
-    grid-column: 1 / 4;
-    place-self: center;
-}
-navRight{
-    grid-column: 8 / end;
-    place-self: center;
-    
-}*/
+
 nav{
     grid-column: 7 / end;
 }
@@ -47,32 +39,30 @@ header,h1{
 }
 
 /*Main Styling*/
-.wrapper-main{
+.container{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 24px;
     text-align: center;
 }
-.wrapper-main > *{
-    flex: 1 50%;
-    padding 10px;
-}
-.pic{
-    width: 90%;
-    display: block;
-    margin: auto;
-}
-img{
-    width: 100%;
-    padding: 1em 1em;
+.contact-box{
+    flex: 200px 1;
+    border: 2px solid #113447;
+    padding: 10px;
+    margin: 10px;
+    overflow:hidden;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.about .pic{
-    margin: 4em auto;
-    text-align: center;
-}
-.about {
-    padding: 1em;
-    margin: 1em;
+.content{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    color: black;
 }
 
 

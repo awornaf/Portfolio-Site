@@ -11,18 +11,52 @@
         <nav>
             <ul>
                 <li><a href="./index.html">About</a></li>
-                <li><a  href="./resume.html">Resume</a></li>
-                <li><a  href="./projects.html">Projects</a></li>
-                <li><a  href="./contact.html">Contact</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
       <div class="container">
-        linkedin
-        email
-        form
-        github
+        <a class="contact-box linkedin" href="https://www.linkedin.com/in/aleksanderornaf/" target="_blank">
+          <div class="content">
+            <img width="300"  src="./Resources/Embeds/LI-Logo.png"/>
+            <p>Check out my LinkedIn profile.</p>
+          </div>
+        </a>
+        <a class="contact-box email" href="mailto:awornaf@gmail.com" target="_blank">
+          <div class="content">
+            <img width="150" src="Resources/Embeds/185078_mail_email_icon.png"/>
+            <p>Shoot an email to me at</p>
+            <p> awornaf@gmail.com !</p>
+          </div>
+        </a> 
+        <a class="contact-box github" href="https://github.com/awornaf" target="_blank">
+          <div class="content">
+            <img width="300" src="./Resources/Embeds/GitHub_Logo.png"/>
+            <p>See my projects on GitHub.</p>
+          </div>
+        </a>
+        <!--Was initially planning a contact form, but removed it to reduce scope. Once I finish some other projects, I plan to implement it fully-->
+        <!-- <div class="contact-box form">
+          <form action="/handle-input" method="post" class="content">
+            <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            </ul>
+          </form>
+        </div> -->
       </div>
     </main>
   </body>
