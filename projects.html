@@ -19,8 +19,24 @@
     </header>
     <main>
         <div class="container">
-          <!--Construction image from "Josethesotryteller" on pixabay.com using their license: https://pixabay.com/service/license/ -->
-          <img class="construction-img" width="1000" src="./../../Resources/Embeds/under-construction-pixabay.png"/>
+          <div class="project-box">
+            <div class="content">
+              <a href="http://reddit-slim.herokuapp.com" target="_blank"><img class="logo" width="500" src="./Resources/Embeds/reddit-slim_logo.JPG" /></a>
+              <h3>Reddit-Slim</h3>
+              <p>This webapp is a slimmed down version of the Reddit UI deployed through Heroku and created with JSX, Node.js, CSS, React, and Redux. To avoid using OAuth (which is required for the official Reddit API), I'm using the <a href="https://github.com/reddit-archive/reddit/wiki/JSON" target="_blank">unofficial Reddit JSON API</a>. By adding ".json" at the end of any Reddit URL, you'll see a JSON of the information there! I get the data using a Redux Thunk and load the relevant bits through various JSX containers.
+                <br><br>
+              Some next steps for this project include: Displaying comments, and loading more than just images. 
+                <br><br>
+              You can click the icon above to go to a live version of the webapp, and you can take a look at <a href="https://github.com/awornaf/reddit-slim" target="_blank">my code on github</a>.</p>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="content">
+              <!--Construction image from "Josethesotryteller" on pixabay.com using their license: https://pixabay.com/service/license/ -->
+              <img class="construction-img" width="1000" src="./Resources/Embeds/under-construction-pixabay.png"/>
+              <p>There are more projects coming soon. Stay tuned!</p>
+            </div>
+          </div>
         </div>
     </main>
   </body>
